@@ -29,13 +29,11 @@ const numbersArray2 = [24, 27, 30, 33, 36]
 
 describe("divisible", () => {
   it("returns a string stating whether or not an input is divisible by 3", () => {
-    const object1 = { number: 15 }
+
     expect(divisible(object1.number)).toEqual(`${object1.number} is divisible by three`)
 
-    const object2 = { number: 0 }
     expect(divisible(object1.number)).toEqual(`${object1.number} is divisible by three`)
 
-    const object3 = { number: -7 }
     expect(divisible(object2)).toEqual(`${object2} is not divisible by three`)
   })
 })
@@ -65,10 +63,8 @@ const divisible = (input) => {
 describe("capWords", () => {
   it("returns all words capitalized", () => {
 
-    const randomNouns1 = ["streetlamp", "potato", "teeth", "conclusion", "nephew"]
     expect(capWords(randomNouns1)).toEqual(["Streetlamp", "Potato", "Teeth", "Conclusion", "Nephew"])
-
-    const randomNouns2 = ["temperature", "database", "chopsticks", "mango"]
+    
     expect(capWords(randomNouns2)).toEqual(["Temperature", "Database", "Chopsticks", "Mango"])
   })
 })
@@ -92,11 +88,8 @@ const capWords = (input) => {
 // a) Create a test with expect statements for each of the variables provided.
 describe("firstVowel", () => {
   it("returns the index number of the first vowel", () => {
-    const vowelTester1 = "learn"
     expect(firstVowel(vowelTester1)).toEqual(1)
-    const vowelTester2 = "academy"
     expect(firstVowel(vowelTester2)).toEqual(0)
-    const vowelTester3 = "challenges"
     expect(firstVowel(vowelTester3)).toEqual(2)
   })
 })
