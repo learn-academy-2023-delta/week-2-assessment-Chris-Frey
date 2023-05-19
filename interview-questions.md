@@ -21,7 +21,7 @@ Researched answer: My answer pretty much matches what I found on the internet. I
 
 Your answer: `map()` takes 3 parameters: `(value, array, index)`.  `value` is the required parameter, which represents the object in the current iteration.  `array` is optional. It refers to the array that we are iterating through. `index` is also optional, and refers to the index number of the element being used in the current iteration.
 
-Researched answer:
+Researched answer: I couldn't find anything additional for this question. There's more to `map()`, but not as it relates to this from what I can tell.
 
 3. What is the difference between map and filter?
 
